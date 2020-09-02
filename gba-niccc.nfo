@@ -1,0 +1,35 @@
+I don't know ASCII art sorry
+
+---------------------------------------------------------
+
+G B A - N I C C
+
+A Game Boy Advance port of the Atari ST demo
+STNICCC 2000 by Oxygene
+
+---------------------------------------------------------
+
+Features:
+
++ 60FPS :)
+
++ It plays the original music thanks to maxmod
+  (https://maxmod.devkitpro.org/)
+
+- Huge ROM size
+
++ An antialiased BW mode can be enabled by pressing A
+  It only works properly on No$gba and on a real GBA
+  
++ The CPU is at 60% at most
+
++ The renderer could handle more complex scenes easily
+
+- I could have added some compression too
+
+- It shouldn't work on shitty flash cards
+
+---------------------------------------------------------
+
+GBA port made by GValiente
+https://github.com/GValiente
