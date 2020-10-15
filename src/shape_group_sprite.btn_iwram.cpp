@@ -18,13 +18,17 @@ void shape_group_sprite::draw(const shape_group* shape_groups_ptr, int shape_gro
 {
     btn::hw::sprites::handle_type base_sprite_handles[4];
     btn::hw::sprites::setup_regular(btn::sprite_items::texture_8.shape_size(), tiles_ids[0], 0,
-                                    btn::sprite_items::texture_8.palette_item().bpp_mode(), base_sprite_handles[0]);
+                                    btn::sprite_items::texture_8.palette_item().bpp_mode(), false,
+                                    base_sprite_handles[0]);
     btn::hw::sprites::setup_regular(btn::sprite_items::texture_16.shape_size(), tiles_ids[1], 0,
-                                    btn::sprite_items::texture_16.palette_item().bpp_mode(), base_sprite_handles[1]);
+                                    btn::sprite_items::texture_16.palette_item().bpp_mode(), false,
+                                    base_sprite_handles[1]);
     btn::hw::sprites::setup_regular(btn::sprite_items::texture_32.shape_size(), tiles_ids[2], 0,
-                                    btn::sprite_items::texture_32.palette_item().bpp_mode(), base_sprite_handles[2]);
+                                    btn::sprite_items::texture_32.palette_item().bpp_mode(), false,
+                                    base_sprite_handles[2]);
     btn::hw::sprites::setup_regular(btn::sprite_items::texture_64.shape_size(), tiles_ids[3], 0,
-                                    btn::sprite_items::texture_64.palette_item().bpp_mode(), base_sprite_handles[3]);
+                                    btn::sprite_items::texture_64.palette_item().bpp_mode(), false,
+                                    base_sprite_handles[3]);
 
     for(int shape_group_index = 0; shape_group_index < shape_groups_count; ++shape_group_index)
     {
