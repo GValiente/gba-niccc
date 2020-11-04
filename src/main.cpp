@@ -40,7 +40,7 @@ namespace
         btn::bg_palettes::set_transparent_color(btn::color(16, 16, 16));
 
         btn::sprite_text_generator text_generator(variable_8x16_sprite_font);
-        text_generator.set_alignment(btn::horizontal_alignment_type::CENTER);
+        text_generator.set_center_alignment();
 
         int text_y = -btn::display::height() / 2;
         int text_y_margin = 15;
