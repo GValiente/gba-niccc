@@ -61,7 +61,7 @@ namespace
         auto text_5 = text_generator.generate<16>(0, text_y, "Made by GValiente");
         text_y += text_y_margin;
 
-        auto text_6 = text_generator.generate<16>(0, text_y, "https://github.com/GValiente");
+        auto text_6 = text_generator.generate<16>(0, text_y, "github.com/GValiente/gba-niccc");
         text_y += text_y_margin;
 
         while(! btn::keypad::a_pressed())
