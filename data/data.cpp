@@ -33,7 +33,7 @@
 
 namespace
 {
-    BTN_DATA_EWRAM const frame frames[] = {
+    BN_DATA_EWRAM const frame frames[] = {
         frame_0(),
         frame_1(),
         frame_2(),
@@ -1837,7 +1837,7 @@ namespace
     };
 }
 
-btn::span<const frame> all_frames()
+bn::span<const frame> all_frames()
 {
     return frames;
 }

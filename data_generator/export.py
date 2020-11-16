@@ -227,13 +227,13 @@ def write_frames(frames, output_folder_path='../data'):
         frame_tag = 'frame_' + str(frame_index)
         frames_file.write('namespace' + '\n')
         frames_file.write('{' + '\n')
-        frames_file.write('    constexpr const btn::color ' + frame_tag + '_colors[] = {' + '\n')
+        frames_file.write('    constexpr const bn::color ' + frame_tag + '_colors[] = {' + '\n')
 
         for frame_color in frame[0]:
             r = int(frame_color[0] / 8)
             g = int(frame_color[1] / 8)
             b = int(frame_color[2] / 8)
-            frames_file.write('        btn::color(' + str(r) + ', ' + str(g) + ', ' + str(b) + '),' + '\n')
+            frames_file.write('        bn::color(' + str(r) + ', ' + str(g) + ', ' + str(b) + '),' + '\n')
 
         frames_file.write('    };' + '\n\n')
 
@@ -279,7 +279,7 @@ def write_frames(frames, output_folder_path='../data'):
             frames_file.write('} ' + '\n\n')
         else:
             frames_file.write('    constexpr const frame ' + frame_tag + '_impl(' + frame_tag + '_colors, ' +
-                              'btn::span<const shape_group>());' + '\n')
+                              'bn::span<const shape_group>());' + '\n')
             frames_file.write('} ' + '\n\n')
 
         frames_file.write('const frame& ' + frame_tag + '()' + '\n')
@@ -309,7 +309,7 @@ def write_frames(frames, output_folder_path='../data'):
         output_file.write('\n')
         output_file.write('namespace' + '\n')
         output_file.write('{' + '\n')
-        output_file.write('    BTN_DATA_EWRAM const frame frames[] = {' + '\n')
+        output_file.write('    BN_DATA_EWRAM const frame frames[] = {' + '\n')
 
         for frame_index, _ in enumerate(frames):
             frame_tag = 'frame_' + str(frame_index)
@@ -318,7 +318,7 @@ def write_frames(frames, output_folder_path='../data'):
         output_file.write('    };' + '\n')
 
         output_file.write('}' + '\n\n')
-        output_file.write('btn::span<const frame> all_frames()' + '\n')
+        output_file.write('bn::span<const frame> all_frames()' + '\n')
         output_file.write('{' + '\n')
         output_file.write('    return frames;' + '\n')
         output_file.write('}' + '\n')

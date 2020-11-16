@@ -3,46 +3,46 @@
  * zlib License, see LICENSE file.
  */
 
-#include "btn_core.h"
+#include "bn_core.h"
 
-#include "btn_music.h"
-#include "btn_keypad.h"
-#include "btn_sprite_ptr.h"
-#include "btn_green_swap.h"
-#include "btn_bg_palettes.h"
-#include "btn_music_items.h"
-#include "btn_regular_bg_ptr.h"
-#include "btn_sprite_tiles_ptr.h"
-#include "btn_sprite_palette_ptr.h"
-#include "btn_sprite_text_generator.h"
-#include "btn_sprite_items_texture_8.h"
-#include "btn_sprite_items_texture_16.h"
-#include "btn_sprite_items_texture_32.h"
-#include "btn_sprite_items_texture_64.h"
-#include "btn_regular_bg_items_border.h"
+#include "bn_music.h"
+#include "bn_keypad.h"
+#include "bn_sprite_ptr.h"
+#include "bn_green_swap.h"
+#include "bn_bg_palettes.h"
+#include "bn_music_items.h"
+#include "bn_regular_bg_ptr.h"
+#include "bn_sprite_tiles_ptr.h"
+#include "bn_sprite_palette_ptr.h"
+#include "bn_sprite_text_generator.h"
+#include "bn_sprite_items_texture_8.h"
+#include "bn_sprite_items_texture_16.h"
+#include "bn_sprite_items_texture_32.h"
+#include "bn_sprite_items_texture_64.h"
+#include "bn_regular_bg_items_border.h"
 #include "variable_8x16_sprite_font.h"
 #include "data.h"
 #include "shape_group_sprite.h"
 
-#include "../../butano/hw/include/btn_hw_hdma.h"
-#include "../../butano/hw/include/btn_hw_sprites.h"
+#include "../../butano/hw/include/bn_hw_hdma.h"
+#include "../../butano/hw/include/bn_hw_sprites.h"
 
 namespace
 {
-    btn::color bw_color(btn::color color)
+    bn::color bw_color(bn::color color)
     {
         int value = (color.red() + color.green() + color.blue()) / 3;
-        return btn::color(value, value, value);
+        return bn::color(value, value, value);
     }
 
     void show_intro()
     {
-        btn::bg_palettes::set_transparent_color(btn::color(16, 16, 16));
+        bn::bg_palettes::set_transparent_color(bn::color(16, 16, 16));
 
-        btn::sprite_text_generator text_generator(variable_8x16_sprite_font);
+        bn::sprite_text_generator text_generator(variable_8x16_sprite_font);
         text_generator.set_center_alignment();
 
-        int text_y = -btn::display::height() / 2;
+        int text_y = -bn::display::height() / 2;
         int text_y_margin = 15;
         text_y += text_y_margin;
 
@@ -64,34 +64,34 @@ namespace
         auto text_6 = text_generator.generate<16>(0, text_y, "github.com/GValiente/gba-niccc");
         text_y += text_y_margin;
 
-        while(! btn::keypad::a_pressed())
+        while(! bn::keypad::a_pressed())
         {
-            btn::core::update();
+            bn::core::update();
         }
     }
 
     void show_demo()
     {
-        btn::regular_bg_ptr border = btn::regular_bg_items::border.create_bg(0, 0);
+        bn::regular_bg_ptr border = bn::regular_bg_items::border.create_bg(0, 0);
         border.set_priority(0);
-        btn::music_items::chcknbnk.play();
+        bn::music_items::chcknbnk.play();
 
-        btn::sprite_palette_ptr sprite_palettes[] = {
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
-            btn::sprite_items::texture_8.palette_item().create_new_palette(),
+        bn::sprite_palette_ptr sprite_palettes[] = {
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
+            bn::sprite_items::texture_8.palette_item().create_new_palette(),
         };
 
         const int sprite_palette_ids[] = {
@@ -113,11 +113,11 @@ namespace
             sprite_palettes[14].id(),
         };
 
-        btn::sprite_tiles_ptr sprite_tiles[] = {
-            btn::sprite_items::texture_8.tiles_item().create_new_tiles(),
-            btn::sprite_items::texture_16.tiles_item().create_new_tiles(),
-            btn::sprite_items::texture_32.tiles_item().create_new_tiles(),
-            btn::sprite_items::texture_64.tiles_item().create_new_tiles(),
+        bn::sprite_tiles_ptr sprite_tiles[] = {
+            bn::sprite_items::texture_8.tiles_item().create_new_tiles(),
+            bn::sprite_items::texture_16.tiles_item().create_new_tiles(),
+            bn::sprite_items::texture_32.tiles_item().create_new_tiles(),
+            bn::sprite_items::texture_64.tiles_item().create_new_tiles(),
         };
 
         const int sprite_tiles_ids[] = {
@@ -127,26 +127,26 @@ namespace
             sprite_tiles[3].id(),
         };
 
-        using hdma_source_array = btn::array<uint16_t, btn::display::height() * 4 * shape_group::max>;
-        btn::unique_ptr<hdma_source_array> hdma_source_a(new hdma_source_array());
-        btn::unique_ptr<hdma_source_array> hdma_source_b(new hdma_source_array());
+        using hdma_source_array = bn::array<uint16_t, bn::display::height() * 4 * shape_group::max>;
+        bn::unique_ptr<hdma_source_array> hdma_source_a(new hdma_source_array());
+        bn::unique_ptr<hdma_source_array> hdma_source_b(new hdma_source_array());
         uint16_t* hdma_source_data = hdma_source_a->data();
         bool bw_mode = false;
-        btn::core::update();
+        bn::core::update();
 
         for(const frame& frame : all_frames())
         {
-            if(btn::keypad::a_pressed())
+            if(bn::keypad::a_pressed())
             {
                 bw_mode = ! bw_mode;
-                btn::green_swap::set_enabled(bw_mode);
+                bn::green_swap::set_enabled(bw_mode);
             }
 
-            btn::color colors[16];
+            bn::color colors[16];
 
             if(bw_mode)
             {
-                btn::bg_palettes::set_transparent_color(bw_color(frame.colors[0]));
+                bn::bg_palettes::set_transparent_color(bw_color(frame.colors[0]));
 
                 for(int color_index = 1; color_index < 16; ++color_index)
                 {
@@ -156,7 +156,7 @@ namespace
             }
             else
             {
-                btn::bg_palettes::set_transparent_color(frame.colors[0]);
+                bn::bg_palettes::set_transparent_color(frame.colors[0]);
 
                 for(int color_index = 1; color_index < 16; ++color_index)
                 {
@@ -168,9 +168,9 @@ namespace
             shape_group_sprite::draw(frame.shape_groups.data(), frame.shape_groups.size(),
                                      sprite_tiles_ids, sprite_palette_ids, hdma_source_data);
 
-            btn::core::update();
-            btn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
-                                 &btn::hw::sprites::vram()[128 - shape_group::max].attr0);
+            bn::core::update();
+            bn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
+                                 &bn::hw::sprites::vram()[128 - shape_group::max].attr0);
 
             if(hdma_source_data == hdma_source_a->data())
             {
@@ -184,21 +184,21 @@ namespace
 
         shape_group_sprite::draw(nullptr, 0, sprite_tiles_ids, sprite_palette_ids, hdma_source_data);
 
-        btn::core::update();
-        btn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
-                             &btn::hw::sprites::vram()[128 - shape_group::max].attr0);
+        bn::core::update();
+        bn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
+                             &bn::hw::sprites::vram()[128 - shape_group::max].attr0);
 
-        btn::core::update();
+        bn::core::update();
 
-        btn::hw::hdma::stop();
-        btn::music::stop();
-        btn::green_swap::set_enabled(false);
+        bn::hw::hdma::stop();
+        bn::music::stop();
+        bn::green_swap::set_enabled(false);
     }
 }
 
 int main()
 {
-    btn::core::init();
+    bn::core::init();
 
     while(true)
     {

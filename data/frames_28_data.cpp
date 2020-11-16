@@ -4,23 +4,23 @@
 
 namespace
 {
-    constexpr const btn::color frame_1680_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1680_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1680_shape_group_0_shape_0_horizontal_lines[] = {
@@ -1242,23 +1242,23 @@ const frame& frame_1680()
 
 namespace
 {
-    constexpr const btn::color frame_1681_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1681_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1681_shape_group_0_shape_0_horizontal_lines[] = {
@@ -2473,23 +2473,23 @@ const frame& frame_1681()
 
 namespace
 {
-    constexpr const btn::color frame_1682_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1682_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1682_shape_group_0_shape_0_horizontal_lines[] = {
@@ -3692,23 +3692,23 @@ const frame& frame_1682()
 
 namespace
 {
-    constexpr const btn::color frame_1683_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1683_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1683_shape_group_0_shape_0_horizontal_lines[] = {
@@ -4915,23 +4915,23 @@ const frame& frame_1683()
 
 namespace
 {
-    constexpr const btn::color frame_1684_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1684_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1684_shape_group_0_shape_0_horizontal_lines[] = {
@@ -6124,23 +6124,23 @@ const frame& frame_1684()
 
 namespace
 {
-    constexpr const btn::color frame_1685_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1685_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1685_shape_group_0_shape_0_horizontal_lines[] = {
@@ -7347,23 +7347,23 @@ const frame& frame_1685()
 
 namespace
 {
-    constexpr const btn::color frame_1686_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1686_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1686_shape_group_0_shape_0_horizontal_lines[] = {
@@ -8577,23 +8577,23 @@ const frame& frame_1686()
 
 namespace
 {
-    constexpr const btn::color frame_1687_colors[] = {
-        btn::color(28, 16, 12),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(0, 0, 0),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1687_colors[] = {
+        bn::color(28, 16, 12),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(0, 0, 0),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1687_shape_group_0_shape_0_horizontal_lines[] = {
@@ -9744,23 +9744,23 @@ const frame& frame_1687()
 
 namespace
 {
-    constexpr const btn::color frame_1688_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1688_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1688_shape_group_0_shape_0_horizontal_lines[] = {
@@ -10921,23 +10921,23 @@ const frame& frame_1688()
 
 namespace
 {
-    constexpr const btn::color frame_1689_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1689_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1689_shape_group_0_shape_0_horizontal_lines[] = {
@@ -12002,23 +12002,23 @@ const frame& frame_1689()
 
 namespace
 {
-    constexpr const btn::color frame_1690_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1690_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1690_shape_group_0_shape_0_horizontal_lines[] = {
@@ -13148,23 +13148,23 @@ const frame& frame_1690()
 
 namespace
 {
-    constexpr const btn::color frame_1691_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1691_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1691_shape_group_0_shape_0_horizontal_lines[] = {
@@ -14269,23 +14269,23 @@ const frame& frame_1691()
 
 namespace
 {
-    constexpr const btn::color frame_1692_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1692_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1692_shape_group_0_shape_0_horizontal_lines[] = {
@@ -15450,23 +15450,23 @@ const frame& frame_1692()
 
 namespace
 {
-    constexpr const btn::color frame_1693_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1693_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1693_shape_group_0_shape_0_horizontal_lines[] = {
@@ -16545,23 +16545,23 @@ const frame& frame_1693()
 
 namespace
 {
-    constexpr const btn::color frame_1694_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1694_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1694_shape_group_0_shape_0_horizontal_lines[] = {
@@ -17630,23 +17630,23 @@ const frame& frame_1694()
 
 namespace
 {
-    constexpr const btn::color frame_1695_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1695_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1695_shape_group_0_shape_0_horizontal_lines[] = {
@@ -18602,23 +18602,23 @@ const frame& frame_1695()
 
 namespace
 {
-    constexpr const btn::color frame_1696_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1696_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1696_shape_group_0_shape_0_horizontal_lines[] = {
@@ -19535,23 +19535,23 @@ const frame& frame_1696()
 
 namespace
 {
-    constexpr const btn::color frame_1697_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1697_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1697_shape_group_0_shape_0_horizontal_lines[] = {
@@ -20469,23 +20469,23 @@ const frame& frame_1697()
 
 namespace
 {
-    constexpr const btn::color frame_1698_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1698_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1698_shape_group_0_shape_0_horizontal_lines[] = {
@@ -21737,23 +21737,23 @@ const frame& frame_1698()
 
 namespace
 {
-    constexpr const btn::color frame_1699_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1699_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1699_shape_group_0_shape_0_horizontal_lines[] = {
@@ -23406,23 +23406,23 @@ const frame& frame_1699()
 
 namespace
 {
-    constexpr const btn::color frame_1700_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1700_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1700_shape_group_0_shape_0_horizontal_lines[] = {
@@ -25055,23 +25055,23 @@ const frame& frame_1700()
 
 namespace
 {
-    constexpr const btn::color frame_1701_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1701_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1701_shape_group_0_shape_0_horizontal_lines[] = {
@@ -26851,23 +26851,23 @@ const frame& frame_1701()
 
 namespace
 {
-    constexpr const btn::color frame_1702_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1702_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1702_shape_group_0_shape_0_horizontal_lines[] = {
@@ -28400,23 +28400,23 @@ const frame& frame_1702()
 
 namespace
 {
-    constexpr const btn::color frame_1703_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1703_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1703_shape_group_0_shape_0_horizontal_lines[] = {
@@ -30032,23 +30032,23 @@ const frame& frame_1703()
 
 namespace
 {
-    constexpr const btn::color frame_1704_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1704_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1704_shape_group_0_shape_0_horizontal_lines[] = {
@@ -31580,23 +31580,23 @@ const frame& frame_1704()
 
 namespace
 {
-    constexpr const btn::color frame_1705_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1705_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1705_shape_group_0_shape_0_horizontal_lines[] = {
@@ -33280,23 +33280,23 @@ const frame& frame_1705()
 
 namespace
 {
-    constexpr const btn::color frame_1706_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1706_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1706_shape_group_0_shape_0_horizontal_lines[] = {
@@ -34896,23 +34896,23 @@ const frame& frame_1706()
 
 namespace
 {
-    constexpr const btn::color frame_1707_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1707_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1707_shape_group_0_shape_0_horizontal_lines[] = {
@@ -36429,23 +36429,23 @@ const frame& frame_1707()
 
 namespace
 {
-    constexpr const btn::color frame_1708_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1708_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1708_shape_group_0_shape_0_horizontal_lines[] = {
@@ -38029,23 +38029,23 @@ const frame& frame_1708()
 
 namespace
 {
-    constexpr const btn::color frame_1709_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1709_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1709_shape_group_0_shape_0_horizontal_lines[] = {
@@ -39823,23 +39823,23 @@ const frame& frame_1709()
 
 namespace
 {
-    constexpr const btn::color frame_1710_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1710_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1710_shape_group_0_shape_0_horizontal_lines[] = {
@@ -41536,23 +41536,23 @@ const frame& frame_1710()
 
 namespace
 {
-    constexpr const btn::color frame_1711_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1711_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1711_shape_group_0_shape_0_horizontal_lines[] = {
@@ -43338,23 +43338,23 @@ const frame& frame_1711()
 
 namespace
 {
-    constexpr const btn::color frame_1712_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1712_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1712_shape_group_0_shape_0_horizontal_lines[] = {
@@ -44961,23 +44961,23 @@ const frame& frame_1712()
 
 namespace
 {
-    constexpr const btn::color frame_1713_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1713_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1713_shape_group_0_shape_0_horizontal_lines[] = {
@@ -46669,23 +46669,23 @@ const frame& frame_1713()
 
 namespace
 {
-    constexpr const btn::color frame_1714_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1714_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1714_shape_group_0_shape_0_horizontal_lines[] = {
@@ -48181,23 +48181,23 @@ const frame& frame_1714()
 
 namespace
 {
-    constexpr const btn::color frame_1715_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1715_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1715_shape_group_0_shape_0_horizontal_lines[] = {
@@ -49786,23 +49786,23 @@ const frame& frame_1715()
 
 namespace
 {
-    constexpr const btn::color frame_1716_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1716_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1716_shape_group_0_shape_0_horizontal_lines[] = {
@@ -51301,23 +51301,23 @@ const frame& frame_1716()
 
 namespace
 {
-    constexpr const btn::color frame_1717_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1717_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1717_shape_group_0_shape_0_horizontal_lines[] = {
@@ -52938,23 +52938,23 @@ const frame& frame_1717()
 
 namespace
 {
-    constexpr const btn::color frame_1718_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1718_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1718_shape_group_0_shape_0_horizontal_lines[] = {
@@ -54500,23 +54500,23 @@ const frame& frame_1718()
 
 namespace
 {
-    constexpr const btn::color frame_1719_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1719_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1719_shape_group_0_shape_0_horizontal_lines[] = {
@@ -56124,23 +56124,23 @@ const frame& frame_1719()
 
 namespace
 {
-    constexpr const btn::color frame_1720_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1720_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1720_shape_group_0_shape_0_horizontal_lines[] = {
@@ -57872,23 +57872,23 @@ const frame& frame_1720()
 
 namespace
 {
-    constexpr const btn::color frame_1721_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1721_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1721_shape_group_0_shape_0_horizontal_lines[] = {
@@ -59435,23 +59435,23 @@ const frame& frame_1721()
 
 namespace
 {
-    constexpr const btn::color frame_1722_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1722_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1722_shape_group_0_shape_0_horizontal_lines[] = {
@@ -61029,23 +61029,23 @@ const frame& frame_1722()
 
 namespace
 {
-    constexpr const btn::color frame_1723_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1723_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1723_shape_group_0_shape_0_horizontal_lines[] = {
@@ -62612,23 +62612,23 @@ const frame& frame_1723()
 
 namespace
 {
-    constexpr const btn::color frame_1724_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1724_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1724_shape_group_0_shape_0_horizontal_lines[] = {
@@ -64182,23 +64182,23 @@ const frame& frame_1724()
 
 namespace
 {
-    constexpr const btn::color frame_1725_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1725_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1725_shape_group_0_shape_0_horizontal_lines[] = {
@@ -65807,23 +65807,23 @@ const frame& frame_1725()
 
 namespace
 {
-    constexpr const btn::color frame_1726_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1726_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1726_shape_group_0_shape_0_horizontal_lines[] = {
@@ -67403,23 +67403,23 @@ const frame& frame_1726()
 
 namespace
 {
-    constexpr const btn::color frame_1727_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1727_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1727_shape_group_0_shape_0_horizontal_lines[] = {
@@ -69030,23 +69030,23 @@ const frame& frame_1727()
 
 namespace
 {
-    constexpr const btn::color frame_1728_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1728_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1728_shape_group_0_shape_0_horizontal_lines[] = {
@@ -70597,23 +70597,23 @@ const frame& frame_1728()
 
 namespace
 {
-    constexpr const btn::color frame_1729_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1729_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1729_shape_group_0_shape_0_horizontal_lines[] = {
@@ -72173,23 +72173,23 @@ const frame& frame_1729()
 
 namespace
 {
-    constexpr const btn::color frame_1730_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1730_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1730_shape_group_0_shape_0_horizontal_lines[] = {
@@ -73685,23 +73685,23 @@ const frame& frame_1730()
 
 namespace
 {
-    constexpr const btn::color frame_1731_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1731_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1731_shape_group_0_shape_0_horizontal_lines[] = {
@@ -75288,23 +75288,23 @@ const frame& frame_1731()
 
 namespace
 {
-    constexpr const btn::color frame_1732_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1732_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1732_shape_group_0_shape_0_horizontal_lines[] = {
@@ -76785,23 +76785,23 @@ const frame& frame_1732()
 
 namespace
 {
-    constexpr const btn::color frame_1733_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1733_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1733_shape_group_0_shape_0_horizontal_lines[] = {
@@ -78410,23 +78410,23 @@ const frame& frame_1733()
 
 namespace
 {
-    constexpr const btn::color frame_1734_colors[] = {
-        btn::color(0, 0, 0),
-        btn::color(16, 4, 12),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1734_colors[] = {
+        bn::color(0, 0, 0),
+        bn::color(16, 4, 12),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1734_shape_group_0_shape_0_horizontal_lines[] = {
@@ -79846,23 +79846,23 @@ const frame& frame_1734()
 
 namespace
 {
-    constexpr const btn::color frame_1735_colors[] = {
-        btn::color(16, 4, 12),
-        btn::color(0, 0, 0),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1735_colors[] = {
+        bn::color(16, 4, 12),
+        bn::color(0, 0, 0),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1735_shape_group_0_shape_0_horizontal_lines[] = {
@@ -80968,23 +80968,23 @@ const frame& frame_1735()
 
 namespace
 {
-    constexpr const btn::color frame_1736_colors[] = {
-        btn::color(16, 4, 12),
-        btn::color(0, 0, 0),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1736_colors[] = {
+        bn::color(16, 4, 12),
+        bn::color(0, 0, 0),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1736_shape_group_0_shape_0_horizontal_lines[] = {
@@ -81958,23 +81958,23 @@ const frame& frame_1736()
 
 namespace
 {
-    constexpr const btn::color frame_1737_colors[] = {
-        btn::color(16, 4, 12),
-        btn::color(0, 0, 0),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1737_colors[] = {
+        bn::color(16, 4, 12),
+        bn::color(0, 0, 0),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1737_shape_group_0_shape_0_horizontal_lines[] = {
@@ -82903,23 +82903,23 @@ const frame& frame_1737()
 
 namespace
 {
-    constexpr const btn::color frame_1738_colors[] = {
-        btn::color(16, 4, 12),
-        btn::color(0, 0, 0),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1738_colors[] = {
+        bn::color(16, 4, 12),
+        bn::color(0, 0, 0),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1738_shape_group_0_shape_0_horizontal_lines[] = {
@@ -83749,23 +83749,23 @@ const frame& frame_1738()
 
 namespace
 {
-    constexpr const btn::color frame_1739_colors[] = {
-        btn::color(16, 4, 12),
-        btn::color(0, 0, 0),
-        btn::color(20, 8, 12),
-        btn::color(24, 12, 12),
-        btn::color(28, 20, 12),
-        btn::color(20, 4, 0),
-        btn::color(16, 0, 0),
-        btn::color(12, 0, 12),
-        btn::color(28, 16, 12),
-        btn::color(8, 12, 16),
-        btn::color(24, 8, 0),
-        btn::color(8, 0, 0),
-        btn::color(28, 16, 0),
-        btn::color(28, 28, 0),
-        btn::color(0, 4, 8),
-        btn::color(8, 16, 8),
+    constexpr const bn::color frame_1739_colors[] = {
+        bn::color(16, 4, 12),
+        bn::color(0, 0, 0),
+        bn::color(20, 8, 12),
+        bn::color(24, 12, 12),
+        bn::color(28, 20, 12),
+        bn::color(20, 4, 0),
+        bn::color(16, 0, 0),
+        bn::color(12, 0, 12),
+        bn::color(28, 16, 12),
+        bn::color(8, 12, 16),
+        bn::color(24, 8, 0),
+        bn::color(8, 0, 0),
+        bn::color(28, 16, 0),
+        bn::color(28, 28, 0),
+        bn::color(0, 4, 8),
+        bn::color(8, 16, 8),
     };
 
     constexpr const horizontal_line frame_1739_shape_group_0_shape_0_horizontal_lines[] = {

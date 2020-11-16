@@ -23,10 +23,10 @@ INCLUDES    :=  include
 DATA        :=
 GRAPHICS    :=  graphics
 AUDIO       :=  audio
-USERFLAGS   :=  -DBTN_CFG_AUDIO_MIXING_RATE=BTN_AUDIO_MIXING_RATE_13_KHZ -DBTN_CFG_AUDIO_MAX_MUSIC_CHANNELS=4 \
-                -DBTN_CFG_AUDIO_MAX_SOUND_CHANNELS=1 \
-                -DBTN_CFG_GAME_PAK_WAIT_STATE_FIRST=BTN_GAME_PAK_WAIT_STATE_FIRST_3 \
-                -DBTN_CFG_GAME_PAK_WAIT_STATE_SECOND=BTN_GAME_PAK_WAIT_STATE_SECOND_1
+USERFLAGS   :=  -DBN_CFG_AUDIO_MIXING_RATE=BN_AUDIO_MIXING_RATE_13_KHZ -DBN_CFG_AUDIO_MAX_MUSIC_CHANNELS=4 \
+                -DBN_CFG_AUDIO_MAX_SOUND_CHANNELS=1 \
+                -DBN_CFG_GAME_PAK_WAIT_STATE_FIRST=BN_GAME_PAK_WAIT_STATE_FIRST_3 \
+                -DBN_CFG_GAME_PAK_WAIT_STATE_SECOND=BN_GAME_PAK_WAIT_STATE_SECOND_1
 
 #---------------------------------------------------------------------------------------------------------------------
 # Export absolute butano path
