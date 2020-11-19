@@ -131,6 +131,8 @@ namespace
         bn::unique_ptr<hdma_source_array> hdma_source_a(new hdma_source_array());
         bn::unique_ptr<hdma_source_array> hdma_source_b(new hdma_source_array());
         uint16_t* hdma_source_data = hdma_source_a->data();
+        bn::color colors[16];
+        bn::sprite_palette_item palette_item(colors, bn::bpp_mode::BPP_4);
         bool bw_mode = false;
         bn::core::update();
 
@@ -142,8 +144,6 @@ namespace
                 bn::green_swap::set_enabled(bw_mode);
             }
 
-            bn::color colors[16];
-
             if(bw_mode)
             {
                 bn::bg_palettes::set_transparent_color(bw_color(frame.colors[0]));
@@ -151,7 +151,7 @@ namespace
                 for(int color_index = 1; color_index < 16; ++color_index)
                 {
                     colors[1] = bw_color(frame.colors[color_index]);
-                    sprite_palettes[color_index - 1].set_colors(colors);
+                    sprite_palettes[color_index - 1].set_colors(palette_item);
                 }
             }
             else
@@ -161,7 +161,7 @@ namespace
                 for(int color_index = 1; color_index < 16; ++color_index)
                 {
                     colors[1] = frame.colors[color_index];
-                    sprite_palettes[color_index - 1].set_colors(colors);
+                    sprite_palettes[color_index - 1].set_colors(palette_item);
                 }
             }
 
