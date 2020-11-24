@@ -5,6 +5,7 @@
 
 #include "bn_core.h"
 
+#include "bn_hdma.h"
 #include "bn_music.h"
 #include "bn_keypad.h"
 #include "bn_sprite_ptr.h"
@@ -24,7 +25,6 @@
 #include "data.h"
 #include "shape_group_sprite.h"
 
-#include "../../butano/hw/include/bn_hw_hdma.h"
 #include "../../butano/hw/include/bn_hw_sprites.h"
 
 namespace
@@ -167,10 +167,8 @@ namespace
 
             shape_group_sprite::draw(frame.shape_groups.data(), frame.shape_groups.size(),
                                      sprite_tiles_ids, sprite_palette_ids, hdma_source_data);
-
-            bn::core::update();
-            bn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
-                                 &bn::hw::sprites::vram()[128 - shape_group::max].attr0);
+            bn::hdma::start(*hdma_source_data, 4 * shape_group::max,
+                            bn::hw::sprites::vram()[128 - shape_group::max].attr0);
 
             if(hdma_source_data == hdma_source_a->data())
             {
@@ -180,17 +178,11 @@ namespace
             {
                 hdma_source_data = hdma_source_a->data();
             }
+
+            bn::core::update();
         }
 
-        shape_group_sprite::draw(nullptr, 0, sprite_tiles_ids, sprite_palette_ids, hdma_source_data);
-
-        bn::core::update();
-        bn::hw::hdma::start(hdma_source_data, 4 * shape_group::max,
-                             &bn::hw::sprites::vram()[128 - shape_group::max].attr0);
-
-        bn::core::update();
-
-        bn::hw::hdma::stop();
+        bn::hdma::stop();
         bn::music::stop();
         bn::green_swap::set_enabled(false);
     }
