@@ -12,6 +12,7 @@
 #include "bn_green_swap.h"
 #include "bn_bg_palettes.h"
 #include "bn_music_items.h"
+#include "bn_string_view.h"
 #include "bn_regular_bg_ptr.h"
 #include "bn_sprite_tiles_ptr.h"
 #include "bn_sprite_palette_ptr.h"
