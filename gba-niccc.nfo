@@ -19,7 +19,6 @@ Features:
 - Huge ROM size
 
 + An antialiased BW mode can be enabled by pressing A
-  It only works properly on No$gba and on a real GBA
   
 + The CPU is at 60% at most
 
