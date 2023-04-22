@@ -15,8 +15,8 @@ class horizontal_line
 
 public:
     uint8_t x;
-    unsigned length_minus_one: 6;
-    unsigned tiles_index: 2;
+    uint8_t length_minus_one: 6;
+    uint8_t tiles_index: 2;
 
     constexpr horizontal_line(int x1, int x2) :
         x(uint8_t(x1)),
