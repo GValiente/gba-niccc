@@ -116,10 +116,10 @@ namespace
         };
 
         bn::sprite_tiles_ptr sprite_tiles[] = {
-            bn::sprite_items::texture_8.tiles_item().create_new_tiles(),
-            bn::sprite_items::texture_16.tiles_item().create_new_tiles(),
-            bn::sprite_items::texture_32.tiles_item().create_new_tiles(),
-            bn::sprite_items::texture_64.tiles_item().create_new_tiles(),
+            bn::sprite_items::texture_8.tiles_item().create_tiles(),
+            bn::sprite_items::texture_16.tiles_item().create_tiles(),
+            bn::sprite_items::texture_32.tiles_item().create_tiles(),
+            bn::sprite_items::texture_64.tiles_item().create_tiles(),
         };
 
         const int sprite_tiles_ids[] = {
@@ -169,8 +169,9 @@ namespace
 
             shape_group_sprite::draw(frame.shape_groups.data(), frame.shape_groups.size(),
                                      sprite_tiles_ids, sprite_palette_ids, hdma_source_data);
-            bn::hdma::start(*hdma_source_data, 4 * shape_group::max,
-                            bn::hw::sprites::vram()[128 - shape_group::max].attr0);
+
+            bn::span<const uint16_t> hdma_source_ref(hdma_source_data, hdma_source_a->size());
+            bn::hdma::start(hdma_source_ref, bn::hw::sprites::vram()[128 - shape_group::max].attr0);
 
             if(hdma_source_data == hdma_source_a->data())
             {
